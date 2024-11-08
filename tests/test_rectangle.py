@@ -36,10 +36,10 @@ class TestRectangle(unittest.TestCase):
 
     def test_invalid_parameters(self):
         with self.assertRaises(TypeError):
-            area("invalid")
+            area("invalid", "")
 
         with self.assertRaises(TypeError):
-            perimeter("invalid")
+            perimeter("invalid", "")
 
 
 if __name__ == "__main__":
