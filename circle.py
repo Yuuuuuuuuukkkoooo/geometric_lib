@@ -9,4 +9,3 @@ def area(r):
 def perimeter(r):
     '''Принимает радиус r, возращает периметр круга.'''
     return 2 * math.pi * r
-
