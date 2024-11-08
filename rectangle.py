@@ -13,6 +13,7 @@ def area(a, b):
         raise TypeError("Invalid type for rectangle sides. Expected int or float.")
     return a * b
 
+
 def perimeter(a, b):
     '''
     Возвращает периметр прямоугольника.

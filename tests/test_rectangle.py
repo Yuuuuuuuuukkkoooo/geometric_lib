@@ -3,6 +3,7 @@ import math
 
 from rectangle import area, perimeter
 
+
 class TestRectangle(unittest.TestCase):
     def test_rectangle_area_1(self):
         a, b = 4, 6
@@ -41,6 +42,6 @@ class TestRectangle(unittest.TestCase):
         with self.assertRaises(TypeError):
             perimeter("invalid")
 
+
 if __name__ == "__main__":
     unittest.main()
-

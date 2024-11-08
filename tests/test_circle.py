@@ -3,6 +3,7 @@ import math
 
 from circle import area, perimeter
 
+
 class TestCircle(unittest.TestCase):
     def test_circle_area_1(self):
         r = 5
@@ -41,6 +42,7 @@ class TestCircle(unittest.TestCase):
 
         with self.assertRaises(TypeError):
             perimeter("invalid")
+
 
 if __name__ == "__main__":
     unittest.main()

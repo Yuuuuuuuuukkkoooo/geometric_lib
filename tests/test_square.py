@@ -3,6 +3,7 @@ import math
 
 from square import area, perimeter
 
+
 class TestSquare(unittest.TestCase):
     def test_square_area_1(self):
         a = 4
@@ -41,6 +42,6 @@ class TestSquare(unittest.TestCase):
         with self.assertRaises(TypeError):
             perimeter("invalid")
 
+
 if __name__ == "__main__":
     unittest.main()
-
