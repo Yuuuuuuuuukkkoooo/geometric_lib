@@ -1,5 +1,4 @@
 import unittest
-import math
 
 from rectangle import area, perimeter
 
